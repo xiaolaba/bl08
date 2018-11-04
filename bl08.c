@@ -37,6 +37,12 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //
 // cheers Kusti
 
+/*
+ * 2018-NOV-04, xiaolaba, fork
+ * add baud rate support 11520, 6MHZ RC or XTAL, and baud rate 9600 x 1.2, 20% offset
+ * set baud rate default to 11520
+*/
+
 #include <stdlib.h>
 #include <fcntl.h>
 #include <termios.h>
@@ -123,11 +129,13 @@ pair baudrates[]= {
 {"2400",B2400},
 {"4800",B4800},
 {"9600",B9600},
+{"11520",B11520},
 {"19200",B19200},
 {"38400",B38400},
 };
 	
-int baudRate=B9600;
+//int baudRate=B9600;
+int baudRate=B11520;
 
 int com;
 
