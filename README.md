@@ -16,7 +16,7 @@ sudo apt update
 git clone https://github.com/xiaolaba/bl08  
 
 ## compile the source code
-cd ~\bl08
+cd ~/bl08
 gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 
 ## run the program
@@ -29,6 +29,7 @@ gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 ##  cross-compiler to create a Windows executable in Linux
 ## Installing the cross-compilation
 sudo apt-get install mingw-w64
+sudo apt-get install gcc-9-locales wine wine64
 
 ## 32bit
 cd ~\bl08
