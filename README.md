@@ -31,9 +31,11 @@ gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 sudo apt-get install mingw-w64
 
 ## 32bit
-i686-w64-mingw32-gcc -o test.exe test.c
+cd ~\bl08
+i686-w64-mingw32-gcc -o bl08_32bit.exe bl08.c
 
 ## 64bit
-x86_64-w64-mingw32-gcc -o test.exe test.c
+cd ~\bl08
+x86_64-w64-mingw32-gcc -o bl08_64bit.exe bl08.c
 
 ```
