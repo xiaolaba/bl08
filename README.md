@@ -17,6 +17,9 @@ git clone https://github.com/xiaolaba/bl08
 
 ## compile the source code
 cd ~/bl08
+cc -o bl08 bl08.c
+
+## done not work
 gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 
 ## run the program
@@ -33,10 +36,15 @@ sudo apt-get install gcc-9-locales wine wine64
 
 ## 32bit
 cd ~/bl08
+## done not work
 i686-w64-mingw32-gcc -o bl08_32bit.exe bl08.c
+
+## done not work
+x86_64-w64-mingw32-gcc -o bl08_32bit.exe bl08.c --static
 
 ## 64bit
 cd ~/bl08
+## done not work
 x86_64-w64-mingw32-gcc -o bl08_64bit.exe bl08.c
 
 ```
