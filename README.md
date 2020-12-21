@@ -19,6 +19,15 @@ git clone https://github.com/xiaolaba/bl08
 cd ~/bl08
 cc -o bl08 bl08.c
 
+## run the program
+./bl08
+
+```
+
+
+
+```
+
 ## done not work
 gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 
