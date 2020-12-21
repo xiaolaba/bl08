@@ -24,7 +24,7 @@ cc -o bl08 bl08.c
 
 ```
 
-Linux execuable, [bl08](bl08)  
+Linux execuable, [bl08](bl08), 115200 BAUD  
 
 done.  
 ![bl08.JPG](bl08.JPG)
