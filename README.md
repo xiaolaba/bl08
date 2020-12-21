@@ -26,7 +26,7 @@ cc -o bl08 bl08.c
 
 Linux execuable, [bl08](bl08)  
 
-done.
+done.  
 ![bl08.JPG](bl08.JPG)
 
 
