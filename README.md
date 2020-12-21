@@ -24,6 +24,8 @@ cc -o bl08 bl08.c
 
 ```
 
+Linux execuable, [bl08](bl08)  
+
 done.
 ![bl08.JPG](bl08.JPG)
 
@@ -37,7 +39,7 @@ did not work....
 
 ```
 
-## done not work
+## do not work
 gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 
 ## run the program
@@ -54,10 +56,10 @@ sudo apt-get install gcc-9-locales wine wine64
 
 ## 32bit
 cd ~/bl08
-## done not work
+## do not work
 i686-w64-mingw32-gcc -o bl08_32bit.exe bl08.c
 
-## done not work
+## do not work
 x86_64-w64-mingw32-gcc -o bl08_32bit.exe bl08.c --static
 
 ## 64bit
