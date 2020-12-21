@@ -8,6 +8,14 @@ forked
 ```
 apt list --upgradable  
 sudo apt update  
-got clone https://github.com/xiaolaba/bl08  
 
+## clone the source code
+git clone https://github.com/xiaolaba/bl08  
+
+## compile the source code
+cd ~\bl08
+gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
+
+## run the program
+./bl08
 ```
