@@ -32,11 +32,11 @@ sudo apt-get install mingw-w64
 sudo apt-get install gcc-9-locales wine wine64
 
 ## 32bit
-cd ~\bl08
+cd ~/bl08
 i686-w64-mingw32-gcc -o bl08_32bit.exe bl08.c
 
 ## 64bit
-cd ~\bl08
+cd ~/bl08
 x86_64-w64-mingw32-gcc -o bl08_64bit.exe bl08.c
 
 ```
