@@ -45,7 +45,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 #include <stdlib.h>
 #include <fcntl.h>
-#include <termios.h>
+//#include <termios.h>
 #include <stdarg.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -59,7 +59,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 # include <sys/wait.h>
 # include <sys/ioctl.h>
-# include <sys/termios.h>
+//# include <sys/termios.h>
 
 #else
 
