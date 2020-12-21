@@ -6,6 +6,8 @@ project derived from http://www.sparetimelabs.com/bl08/bl08.php
 
 forked
 ```
-sudo apt get https://github.com/xiaolaba/bl08
+apt list --upgradable  
+sudo apt update  
+got clone https://github.com/xiaolaba/bl08  
 
 ```
