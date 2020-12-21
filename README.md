@@ -24,7 +24,16 @@ cc -o bl08 bl08.c
 
 ```
 
+done.
+![bl08.JPG](bl08.JPG)
 
+
+
+
+
+.  
+.  
+did not work....  
 
 ```
 
