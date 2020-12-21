@@ -4,7 +4,10 @@ project derived from http://www.sparetimelabs.com/bl08/bl08.php
 
 
 
-forked
+forked,   
+platform for build, https://github.com/xiaolaba/Openwrt_Ubuntu_20.04_setup   
+
+build script,
 ```
 apt list --upgradable  
 sudo apt update  
