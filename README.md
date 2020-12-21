@@ -22,3 +22,18 @@ gcc -Wall -std=c99 -pedantic -o bl08 bl08.c
 ## run the program
 ./bl08
 ```
+
+  
+  
+```
+##  cross-compiler to create a Windows executable in Linux
+## Installing the cross-compilation
+sudo apt-get install mingw-w64
+
+## 32bit
+i686-w64-mingw32-gcc -o test.exe test.c
+
+## 64bit
+x86_64-w64-mingw32-gcc -o test.exe test.c
+
+```
