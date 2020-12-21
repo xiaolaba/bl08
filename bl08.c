@@ -45,7 +45,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 #include <stdlib.h>
 #include <fcntl.h>
-//#include <termios.h>
+#include <termios.h>
 #include <stdarg.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -59,7 +59,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 # include <sys/wait.h>
 # include <sys/ioctl.h>
-//# include <sys/termios.h>
+
 
 #else
 
@@ -130,13 +130,12 @@ pair baudrates[]= {
 {"2400",B2400},
 {"4800",B4800},
 {"9600",B9600},
-{"11520",B11520},
 {"19200",B19200},
 {"38400",B38400},
 };
 	
 //int baudRate=B9600;
-int baudRate=B11520;
+int baudRate=B115200;
 
 int com;
 
